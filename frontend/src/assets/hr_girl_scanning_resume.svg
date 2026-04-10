@@ -1,0 +1,194 @@
+<svg width="100%" viewBox="0 0 680 630" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>HR woman scanning a resume with a magnifying glass</title>
+<desc>An animated HR professional in a black coat and glasses, holding a resume in one hand while actively scanning it with a magnifying glass that moves across the paper.</desc>
+
+<defs>
+  <clipPath id="resumeClip">
+    <rect x="148" y="248" width="148" height="210"/>
+  </clipPath>
+  <style>
+    @keyframes bodyFloat {
+      0%,100%{transform:translateY(0)}
+      50%{transform:translateY(-6px)}
+    }
+    @keyframes scanAcross {
+      0%   {transform:translate(0px,  0px)}
+      20%  {transform:translate(30px,-18px)}
+      40%  {transform:translate(55px, 8px)}
+      60%  {transform:translate(28px, 32px)}
+      80%  {transform:translate(8px,  16px)}
+      100% {transform:translate(0px,  0px)}
+    }
+    @keyframes blink {
+      0%,88%,100%{transform:scaleY(1)}
+      94%{transform:scaleY(0.08)}
+    }
+    @keyframes glowPulse {
+      0%,100%{opacity:0.25}
+      50%{opacity:0.55}
+    }
+    @keyframes rowHighlight {
+      0%,100%{opacity:0;fill:#fde68a}
+      35%,65%{opacity:1;fill:#fde68a}
+    }
+    @keyframes rowHighlight2 {
+      0%,15%,85%,100%{opacity:0}
+      45%,70%{opacity:1}
+    }
+    .bodyFloat {
+      animation: bodyFloat 3.6s ease-in-out infinite;
+      transform-origin: 340px 410px;
+    }
+    .magnifier {
+      animation: scanAcross 4.2s ease-in-out infinite;
+      transform-origin: 248px 340px;
+    }
+    .eyeGroup {
+      animation: blink 4s ease-in-out infinite;
+      transform-origin: 340px 170px;
+    }
+    .lensGlow {
+      animation: glowPulse 2.1s ease-in-out infinite;
+    }
+    .hlRow1 {
+      animation: rowHighlight 4.2s ease-in-out infinite;
+    }
+    .hlRow2 {
+      animation: rowHighlight2 4.2s ease-in-out 0.7s infinite;
+    }
+  </style>
+</defs>
+
+<g class="bodyFloat">
+
+  <!-- HAIR -->
+  <ellipse cx="340" cy="135" rx="57" ry="64" fill="#2d1a0e"/>
+  <ellipse cx="290" cy="162" rx="19" ry="42" fill="#2d1a0e"/>
+  <ellipse cx="390" cy="162" rx="19" ry="42" fill="#2d1a0e"/>
+  <ellipse cx="340" cy="198" rx="32" ry="13" fill="#2d1a0e"/>
+
+  <!-- NECK -->
+  <rect x="326" y="200" width="28" height="30" rx="4" fill="#f5c5a3"/>
+
+  <!-- BLACK COAT -->
+  <rect x="242" y="228" width="196" height="185" rx="18" fill="#1a1a2e"/>
+  <polygon points="340,230 294,274 316,230" fill="#252540"/>
+  <polygon points="340,230 386,274 364,230" fill="#252540"/>
+  <polygon points="322,230 340,258 358,230 344,230 340,244 336,230" fill="#f8f8ff"/>
+  <circle cx="340" cy="294" r="4" fill="#252540"/>
+  <circle cx="340" cy="318" r="4" fill="#252540"/>
+  <circle cx="340" cy="342" r="4" fill="#252540"/>
+
+  <!-- LEFT ARM -->
+  <rect x="196" y="230" width="50" height="125" rx="22" fill="#1a1a2e"/>
+  <rect x="182" y="325" width="68" height="48" rx="22" fill="#1a1a2e" transform="rotate(18,218,349)"/>
+  <ellipse cx="198" cy="390" rx="24" ry="15" fill="#f5c5a3"/>
+
+  <!-- RIGHT ARM -->
+  <rect x="434" y="230" width="50" height="100" rx="22" fill="#1a1a2e"/>
+  <rect x="390" y="298" width="90" height="40" rx="20" fill="#1a1a2e" transform="rotate(40,435,318)"/>
+  <ellipse cx="368" cy="360" rx="20" ry="13" fill="#f5c5a3"/>
+
+  <!-- SKIRT / LOWER COAT -->
+  <rect x="260" y="405" width="160" height="78" rx="10" fill="#1a1a2e"/>
+  <rect x="293" y="476" width="38" height="72" rx="12" fill="#374151"/>
+  <rect x="349" y="476" width="38" height="72" rx="12" fill="#374151"/>
+  <ellipse cx="312" cy="550" rx="25" ry="10" fill="#111"/>
+  <ellipse cx="368" cy="550" rx="25" ry="10" fill="#111"/>
+  <rect x="328" y="546" width="6" height="14" rx="2" fill="#111"/>
+  <rect x="384" y="546" width="6" height="14" rx="2" fill="#111"/>
+
+  <!-- FACE -->
+  <ellipse cx="340" cy="160" rx="52" ry="57" fill="#f5c5a3"/>
+
+  <!-- GLASSES -->
+  <rect x="295" y="160" width="40" height="27" rx="8" fill="none" stroke="#1a1a2e" stroke-width="3.5"/>
+  <rect x="345" y="160" width="40" height="27" rx="8" fill="none" stroke="#1a1a2e" stroke-width="3.5"/>
+  <line x1="335" y1="174" x2="345" y2="174" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="295" y1="174" x2="275" y2="170" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="385" y1="174" x2="405" y2="170" stroke="#1a1a2e" stroke-width="3"/>
+  <rect x="296" y="161" width="38" height="25" rx="7" fill="#c8e0ff" opacity="0.22"/>
+  <rect x="346" y="161" width="38" height="25" rx="7" fill="#c8e0ff" opacity="0.22"/>
+
+  <!-- EYES -->
+  <g class="eyeGroup">
+    <ellipse cx="315" cy="174" rx="9" ry="8" fill="#fff"/>
+    <ellipse cx="365" cy="174" rx="9" ry="8" fill="#fff"/>
+    <ellipse cx="318" cy="175" rx="5" ry="5" fill="#2d1a0e"/>
+    <ellipse cx="362" cy="175" rx="5" ry="5" fill="#2d1a0e"/>
+    <circle cx="319" cy="174" r="2.5" fill="#111"/>
+    <circle cx="363" cy="174" r="2.5" fill="#111"/>
+    <circle cx="321" cy="172" r="1.4" fill="#fff" opacity="0.85"/>
+    <circle cx="365" cy="172" r="1.4" fill="#fff" opacity="0.85"/>
+  </g>
+
+  <!-- EYEBROWS -->
+  <path d="M304 160 Q315 154 327 159" fill="none" stroke="#2d1a0e" stroke-width="3" stroke-linecap="round"/>
+  <path d="M354 160 Q365 154 378 159" fill="none" stroke="#2d1a0e" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- NOSE -->
+  <path d="M337 182 Q335 194 340 197 Q345 194 343 182" fill="none" stroke="#d4956a" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- MOUTH -->
+  <path d="M330 212 Q340 217 350 212" fill="none" stroke="#c0605a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- EARRINGS -->
+  <circle cx="289" cy="177" r="5" fill="#d4af37"/>
+  <circle cx="391" cy="177" r="5" fill="#d4af37"/>
+
+</g>
+
+<!-- RESUME -->
+<g transform="rotate(-4, 222, 360)">
+  <rect x="148" y="248" width="148" height="210" rx="5" fill="#fffef5" stroke="#c8c8c8" stroke-width="1.5"/>
+  <rect x="148" y="248" width="148" height="30" rx="5" fill="#1a1a2e"/>
+  <rect x="148" y="270" width="148" height="8" fill="#1a1a2e"/>
+  <rect x="163" y="256" width="72" height="7" rx="2" fill="#fff" opacity="0.8"/>
+  <rect x="163" y="292" width="112" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="305" width="95" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="318" width="104" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="334" width="44" height="5" rx="2" fill="#1a1a2e"/>
+  <rect x="160" y="346" width="118" height="12" rx="3" class="hlRow1" opacity="0"/>
+  <rect x="163" y="349" width="88" height="5" rx="2" fill="#78909c"/>
+  <rect x="160" y="362" width="118" height="12" rx="3" class="hlRow2" fill="#fde68a" opacity="0"/>
+  <rect x="163" y="366" width="72" height="5" rx="2" fill="#78909c"/>
+  <rect x="163" y="382" width="96" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="395" width="80" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="412" width="58" height="5" rx="2" fill="#1a1a2e"/>
+  <rect x="163" y="425" width="110" height="5" rx="2" fill="#b0bec5"/>
+  <rect x="163" y="438" width="90" height="5" rx="2" fill="#b0bec5"/>
+</g>
+
+<!-- MAGNIFIER (scans across resume) -->
+<g class="magnifier">
+  <circle cx="248" cy="340" r="52" fill="none" stroke="#1a1a2e" stroke-width="8"/>
+  <circle cx="248" cy="340" r="44" fill="#dbeafe" opacity="0.5"/>
+  <circle cx="248" cy="340" r="36" fill="#93c5fd" class="lensGlow" opacity="0.3"/>
+  <ellipse cx="234" cy="324" rx="13" ry="9" fill="#fff" opacity="0.3" transform="rotate(-30,234,324)"/>
+  <text x="248" y="334" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1e3a5f" opacity="0.9">— Skills —</text>
+  <text x="248" y="348" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a5f" opacity="0.8">Python  SQL</text>
+  <text x="248" y="362" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#1e3a5f" opacity="0.8">Leadership</text>
+  <line x1="287" y1="374" x2="348" y2="428" stroke="#1a1a2e" stroke-width="13" stroke-linecap="round"/>
+  <line x1="287" y1="374" x2="347" y2="427" stroke="#4a4a6a" stroke-width="6" stroke-linecap="round"/>
+</g>
+
+<!-- FLOATING SKILL TAGS -->
+<rect x="62" y="148" width="82" height="24" rx="12" fill="#dcfce7" stroke="#4ade80" stroke-width="1"/>
+<text x="103" y="165" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#15803d">Leadership</text>
+
+<rect x="536" y="168" width="76" height="24" rx="12" fill="#fef9c3" stroke="#facc15" stroke-width="1"/>
+<text x="574" y="185" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#854d0e">Teamwork</text>
+
+<rect x="544" y="380" width="76" height="24" rx="12" fill="#fce7f3" stroke="#f472b6" stroke-width="1"/>
+<text x="582" y="397" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#9d174d">Empathy</text>
+
+<rect x="58" y="390" width="74" height="24" rx="12" fill="#e0e7ff" stroke="#818cf8" stroke-width="1"/>
+<text x="95" y="407" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#3730a3">Analytics</text>
+
+<!-- FLOOR SHADOW -->
+<ellipse cx="340" cy="568" rx="130" ry="10" fill="#00000015"/>
+
+<!-- CAPTION -->
+<text x="340" y="600" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#6b7280">HR Specialist — Scanning for the right skills</text>
+
+</svg>
